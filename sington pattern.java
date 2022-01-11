@@ -9,7 +9,7 @@ class DbConnection{
    }
 
 
-	public static DbConnection getDbConnection(String dbUser,String dbPassword,String dbName) {
+	public static DbConnection getDbConnection(String CBUser,String dbPassword,String dbName) {
       if (instance== null ) 
 		instance = new DbConnection(dbUser,dbPassword,dbName) ;                           
 
